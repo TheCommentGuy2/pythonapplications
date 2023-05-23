@@ -98,6 +98,13 @@ footer p {
   margin: 0;
 }
 
+#read{
+  color: red;
+}
+#read:visited {
+  color: red;
+}
+
 /* Responsive Styles */
 
 @media only screen and (max-width: 600px) {
