@@ -4,9 +4,9 @@
 <link rel=”stylesheet” href=”css/bootstrap.css”>
 <link rel=”stylesheet” href=”css/bootstrap-responsive.css”>
 <head>
-  <title>ProcessTerminator</title>
+  <title>ProcessTerminator - PythonAppSquare</title>
   <link rel="stylesheet" href="styles.css">
-  <link rel="shortcut icon" href="red.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="../fav.ico" type="image/x-icon">
 </head>
 <body>
   <header>
@@ -23,20 +23,20 @@
     
     <section>
       <h2>Screenshot</h2>
-      <img src="source.png" alt="ProcessTerminator Screenshot" class="screenshot">
+      <img src="source.png" alt="ProcessTerminator Screenshot" onclick="enlargeImage(this) " id="app-screenshot" class="screenshot">
     </section>
 
     <section>
       <h2>How to Use</h2>
-      <p>Follow these simple steps to close apps:</p>
+      <p>Follow these simple steps to use this app:</p>
       <ol>
-        <li>Select the app from the list: Choose the application you want to close from the provided list of running applications.</li>
+        <li>Select an app or proccess from the list: Choose the application you want to close from the provided list of running applications.</li>
         <br>
         <li>Choose to close the app after a specific duration or at a scheduled time: Decide whether you want to set a duration for the app to close automatically after a certain period or schedule a specific time for the app to close.</li>
         <br>
-        <li>Click the "Close App" button</li>
+        <li>Click the "Close App" button. The app will do the rest!  Click "Cancel" if you want to abort the closing of the app/procces</li>
         <br>
-        <p class="info"><b>This application needs Python to run. This application has only been tested on Windows 10/11 and may not support other version. For more information please read the <i>README.txt</i> file after downloading the app</b></p>
+        <p class="info"><b>This application needs Python to run. This application has only been tested on Windows 10/11 and may not support other OS versions. For more information regarding the installation proccess, please read the <i>README.txt</i> file after downloading the zip file</b></p>
       </ol>
     </section>
   </main>
@@ -45,6 +45,6 @@
     <p>&copy; 2023 ThatPythonProgammer. All rights reserved.</p>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="main.js"></script>
 </body>
 </html>
